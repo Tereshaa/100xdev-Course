@@ -1,0 +1,90 @@
+WEEK 1.2
+
+WHY LANGUAGES?
+-Languages are used to write applications
+-developers write high level code in these Languages
+-every language has a compiler which converts the developer code into 0s and 1s
+
+Compiled Languages(c++)
+write code -> compile code -> run code 
+compile whole code, then run
+
+Interpreted Languages(Js)
+write code -> run code
+line by line
+
+js is dynamic-can change types of variables
+for ex: 
+let num=5;
+num="hello" //doesnt cause an error
+but if same thing in done in languages like c++(static lang), it causes error
+
+js is single threaded - uses only one core at a time. Therefor it is considered to be a bad language for scalable systems
+non blocking and async
+
+variables-let,var,const(cannot change the value of the variable- if changed, throws error)
+
+The == operator will compare for equality after doing any necessary type conversions. 
+The === operator will not do the conversion, so if two values are not the same type === will simply return false.
+
+
+WEEK 1.3
+
+string functions:
+=> length- str.length
+=> index of target - str.indexOf(target) - gives index of the first occurence
+to get last index- str.lastIndexOf(target)
+=> part of a string - str.slice(start,end) - doesnt include end index
+=> substr(start,length of substring required)
+=> replace(target,replacement)
+=> split("delimiter")
+=> trim() 
+=> toUpper()
+=> toLower()
+
+ParseInt() string to integer
+
+Arrays
+=> push(element)
+=> pop()
+=> shift()
+=> unshift(element)
+=> concat() - initialarray.concat(secondArray)
+=> forEach(function)
+=> map
+
+classes- gives structure that is resusable
+
+JSON.parse => string to object
+JSON.stringify => object to string
+
+Object.keys => returns the keys of the object
+Object.values => returns the values of the object
+Object.entries => returns the key value pairs of the object
+Object.assign => merge 2 objects
+
+WEEK 1.5
+
+synchronous - things happening sequentially
+asynchronous - things happen part by part
+
+all functions seen till now are sync functions
+tasks can be delegated(run parallely) using async functions
+
+async functions - setTimeout(running a function after sometime)
+                - fs.readFile (to read a file from ur filesystem)
+                -Fetch(to fetch some data from an API endpoint)
+
+real use of callback functions is in async functions
+
+-callbacks are an ugly way to write async funcitons, thats why we use promises.
+-Promises are syntactic sugar, but still uses callback under the hood.
+-whenever u create it u need to pass a function as the first argument which has resolve
+as the first argument
+
+async await - again just syntactic sugar. still uses callback and promises under the hood
+used on the caller side,not on the side where u define an async function
+await is only valid in async function
+
+
+
