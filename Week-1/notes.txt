@@ -82,7 +82,7 @@ real use of callback functions is in async functions
 -whenever u create it u need to pass a function as the first argument which has resolve
 as the first argument
 
-async await - again just syntactic sugar. still uses callback and promises under the hood
+async await - again just syntactic sugar. But it still uses callback and promises under the hood
 used on the caller side,not on the side where u define an async function
 await is only valid in async function
 
