@@ -1,0 +1,100 @@
+WEEK 2.2
+
+ECMAScript- scripting language scpecification on which JS is based.
+            guidelines for scripting lang design
+Javascript - scripting language that conforms to the ECMAScript scpecification
+            includes additional features that arent a part of ECMAScript like DOM.
+
+Bun- other than the fact that JS is single threaded, node.js is slow(multiple reasons for it)
+    few people re-wrote the JS runtime for the backend and introduced BUN.
+    written in big and is a significantly faster runtime
+
+What can you do with Node.js:
+-create clis - command line interface
+-create video player
+-create a game
+-create an HTTP Server
+
+HTTP Server(Hyper Text Transfer Protocol)
+- a protocol that is defined for machines to communicate
+- specifically for websites, most common way for website's frontend to talk to its backend
+ HTTP Server is some code that follows the HTTP and is able to communicate with the clients
+
+Things Client side needs to worry about 
+-Protocol(HTTP/HTTPS)
+-Address(URL/IP/PORT)
+-Route
+-Header, bOsy,Query Params
+-Method
+
+Things server side needs to worry about
+- Response Headerds
+- Response Body
+- Status Codes
+
+Things that happen in ur browser after you fire a request
+-browser parses the URL
+-does a dns lookup(conversts google.com to an ip)
+-establishes a connection to the ip(does handshake..)
+
+what is dns(domain name service) resolution:
+-maps url to ip
+
+things that happen on ur server after the req is received
+-gets the inputs(route,body,headers)
+- does some logic on the input and returns the output
+- returns the output body, headers and status code
+
+common methods to send to ur backend server - GET,PUT,POST,DELETE
+
+Status Codes
+200 -ok
+404 - page not found
+403- access to resource is forbidden
+403- authentication issues
+500 - internal server error
+
+There are many libraries that let you create HTTP Servers.
+The most famous one is express
+
+bodyparser - for message body which is in json
+nodemon - saves us from restarting everytime we make a change in our code
+
+fs is a library that gives you high level constructs to do filesystem stuff(read, write)
+express is a lib that gives you high level constructs to create http servers
+
+
+WEEK 2.3 and 2.4
+
+terminal is nothing but another interface to do things on ur machine
+
+Bash Commands
+pwd - print working directory
+cd - change directory
+ls - listing all files in that directory
+mkdir - make directory
+touch - creates files
+cat - prints contents of a file
+vi -  edit file(not recommended)
+mv - move files
+cp - copy files
+rm - remove
+chmod - change file permissions
+echo - to display a message
+head - top 10 rows (head - 20 : gives top 20)
+tail - last 10 rows
+wc - stats of the file
+grep - find an expresssion/phrase or anything in a file/folder/dir
+history - history of all commands
+clear - clear screen
+nvm - node version manager
+npm - node package manager
+
+script in Bash
+in the first line of our script, we must specify which interpreter we use to parse the script.
+in this case it is bash, so we much put the shebang in the first line
+#!/bin/bash
+
+
+WEEK 2.6
+
