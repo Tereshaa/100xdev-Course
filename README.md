@@ -1,24 +1,26 @@
 # 100xdev Cohort Course
 
-## Week-0 
-Basics of HTML and CSS
+## Week 0: Basics of HTML and CSS
 
-Built Zerodha landing page
+### Built Zerodha Landing Page
+![Zerodha Landing Page](https://github.com/Tereshaa/100xdev-Course/assets/106382420/73b18fbf-7878-4a70-9527-763d5f0e1a18)
 
-<img src="https://github.com/Tereshaa/100xdev-Course/assets/106382420/73b18fbf-7878-4a70-9527-763d5f0e1a18" alt="Zerodha Landing Page" width="60%" />
+## Week 1: JavaScript Foundation
+- **Simple and complex primitives**
+- **Classes and objects**
+- **Loops**
+- **Functions**
+- **Callback functions**
+- **Promises**
+- **Async Functions**
 
-## Week-1
-JS Foundation - Simple and complex primitives, classes and objects, loops, Functions, Callback functions
+## Week 2: Basics of Node.js
+- **Creating HTTP server**
+- **Bash Commands**
+- **Filter**
+- **Map**
 
-Promises
-
-Async Functions
-
-## Week-2
-Basics of Node.js, Creating http server
-
-Bash Commands, filter , map
-
-
-
-
+## Week 3: Authentication
+- **zod and middlewares**
+- **Databases and authentication**
+- **JWT authentication**
