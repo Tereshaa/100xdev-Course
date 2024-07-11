@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="getanimaldata()">Get Animal Data</button>
+</body>
+<script>
+    // one way to write it
+    function getanimaldata() {
+        fetch("https://fakerapi.it/api/v1/persons")
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    }
+
+    //other way to write it
+    async function getanimaldata() {
+        try {
+            const response = await fetch("https://fakerapi.it/api/v1/persons");
+            const data = await response.json();
+            console.log(data);
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,49 @@
+crptography concepts for authentication
+-hashing
+-encryption
+-json web token
+-local storage
+
+HASHING 
+- a particular string(pwd) is the same hash.doesnt change how many times it gets hashed
+- cannot convert that hash to string back again
+- doesnt require a key
+- one way
+- given the output, no one can find the inpit
+- changing the input lil bit changes the output by a lot
+
+ENCRYPTION 
+- encypts and decrypts
+- needs a key for decryption
+- two way
+- string is encrypted using a password
+- string can be decrypted using the same password
+
+JSON WEB TOKEN 
+- only works for json input
+- creates a token
+- doesnt hash
+- technically called a digital signature
+- anyone can see the original output given the signature
+- signature can be verified only using the password
+
+LOCAL STORAGE 
+- token is stored here, andis used for further used
+
+DATABASES
+-graph db 
+-vector db
+-sql db
+-nosql db
+
+MONGODB
+- lets u create DATABASES
+- in each db, it lets you create tables(collections)
+- in each table, it lets you dump JSON data 
+- it is schemaless
+- it scales well and is a decent choice for most use cases
+
+how backend connected to db? using libraries
+-express lets you create http server
+-jwt library lets you create jets
+- mongoose lets you connect to database
