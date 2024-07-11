@@ -13,3 +13,12 @@ JS Foundation - Simple and complex primitives, classes and objects, loops, Funct
 Promises
 
 Async Functions
+
+## Week-2
+Basics of Node.js, Creating http server
+
+Bash Commands, filter , map
+
+
+
+
